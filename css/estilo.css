@@ -1,0 +1,41 @@
+    body {
+        background-color: #d18c5d;
+    }
+
+    header {
+        background-color: #231d16;
+        height: 6rem;
+    }
+
+
+    .logo {
+        height: 6rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .jordans{
+        height: 50vw;
+    }
+
+    section .logotipos{
+        background-color:#231d16;;
+        display: flex;
+        align-items: center;
+        height: 5vw;
+    }
+
+    section img {
+        width: 5%;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+
+    section img:hover {
+       cursor: crosshair;
+       width: 8vw;
+       opacity: 1;
+       filter: contrast(120%);
+    }
