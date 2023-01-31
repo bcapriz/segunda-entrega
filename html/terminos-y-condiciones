@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+
+
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="/imagenes/logo-web.png"
+                        alt="logo-ecommerce"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><strong>INICIO</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MARCAS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Jordan</a></li>
+                                <li><a class="dropdown-item" href="#">Nike Sportswear</a></li>
+                                <li><a class="dropdown-item" href="#">Adidas</a></li>
+                                <li><a class="dropdown-item" href="#">Under Armour</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><svg xmlns="http:://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-search btnSearch"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="btmNav">
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline">INGRESOS!</button>
+            <button type="button" class="btn btn-outline">HOMBRE</button>
+            <button type="button" class="btn btn-outline">MUJER</button>
+            <button type="button" class="btn btn-outline">NIÑO</button>
+            <button type="button" class="btn btn-outline">SALE</button>
+
+        </div>
+    </div>
+
+    <main>
+        <h1>TÉRMINOS Y CONDICIONES GRID</h1>
+        <h3>ACEPTACION Y CONOCIMIENTO DE LOS TÉRMINOS Y CONDICIONES</h3>
+        <p>Las presentes disposiciones generales serán aplicables y regirán para poder operar en el sitio y/o bien hacer
+            uso de los servicios que se ofrecen en www.grid.com.ar (en adelante, indistintamente, “el sitio” y/o
+            “grid”).</p>
+        <p>El usuario de este sitio, al ingresar al mismo, acepta y declara conocer los presentes Términos y Condiciones
+            de uso del mismo, los cuales se detallan a continuación. De no aceptar estos Términos y Condiciones deberá
+            abstenerse a continuar operando en el sitio.</p>
+        <br>
+        <h3>MODIFICACION DE LOS TÉRMINOS Y CONDICIONES</h3>
+        </p>
+        <p>La vigencia de los presentes Términos y Condiciones se mantendrá mientras se encuentren los mismos publicados
+            en “el sitio” pudiendo los mismos ser modificados por grid sin previo aviso.</p>
+        En virtud de ello se recomienda al usuario que revise periódicamente los presentes Términos y Condiciones.
+        Cualquier modificación que se introduzca estará vigente a partir de su publicación en “el sitio” y el uso del
+        sitio con posterioridad a la modificación implica aceptación de dichos cambios por parte del usuario.</p>
+        <br>
+        <h3>USO DE EL SITIO</h3>
+        <p>Podrán operar en “el sitio” personas que sean capaces para contratar conforme lo establecido por el Código
+            Civil y leyes aplicables (en adelante el usuario).</p>
+        <p>No podrán hacer uso del sitio aquellas personas que no tengan dicha capacidad legal.
+
+        <p>Este sitio constituye una plataforma virtual a través de la cual cualquier usuario registrado en él puede
+            comprar los productos que se ofrezcan en el mismo y que se encuentren disponibles, conforme las condiciones
+            que a continuación se detallarán. La información contenida en la misma no implica recomendación ni
+            asesoramiento de ningún tipo, siendo información de carácter de general.</p>
+
+        <h3>AVISOS PUBLICITARIOS Y LINKS</h3>
+        <p>En el sitio pueden existir enlaces que permitan al usuario acceder a sitios de terceros. De existir dichos
+            enlaces, los mismos no podrán interpretarse como asociación de ningún tipo entre el sitio y dichos terceros.
+            El usuario declara conocer que el acceso a otros sitios implicará someterse a los términos y condiciones de
+            los mismos, que podrán ser distintos al presente.</p>
+
+        <h3>PROHIBICIONES DENTRO DE EL SITIO</h3>
+        <p>Al navegar por grid queda prohibido: (i) enviar o transmitir material sexual u obsceno; (ii) enviar o
+            transmitir información cuyo contenido sea, directa o indirectamente, y sin que lo siguiente se considere una
+            limitación, trasgresor, profano, abusivo, difamatorio y/o fraudulento; (iii) enviar o transmitir archivos
+            que contengan virus u otras características destructivas que puedan afectar de manera adversa el
+            funcionamiento de una computadora ajena y/o puedan afectar el correcto funcionamiento de las mismas y/o del
+            sitio; (iv) utilizar www.grid.com.ar, directa o indirectamente, para violar cualquier ley aplicable,
+            cualquiera fuese su naturaleza, ya sea provincial, nacional o internacional; (v) utilizar nuestro servicios
+            utilizando un nombre falso, erróneo o inexistente, ya sea como persona física o jurídica; (vi) enviar o
+            transmitir información de propiedad de terceros o que pudiera afectar adversamente la imagen y/o los
+            derechos de terceros.</p>
+
+        <h3>PRIVACIDAD DE LOS DATOS PERSONALES PROVISTOS POR EL USUARIO</h3>
+        <p>Grid no cederá, venderá ni entregará a otras empresas o personas físicas la información suministrada por
+            Usted.
+        <p>Grid no cederá, venderá ni negociará su base de datos con otras empresas o personas físicas. Usted acepta por
+            el hecho de registrarse y operar con nosotros, el derecho de grid a comunicarse con Usted por vía
+            electrónica o telefónica hasta que usted manifieste fehacientemente que no desea ser contactado.</p>
+
+        <h3>INTERRUPCION DEL SERVICIO - EXCLUSION DE RESPONSABILIDAD</h3>
+        <p>Grid se reserva el derecho de interrumpir, suspender o modificar en cualquier momento los servicios ofrecidos
+            en el presente website, ya sea en forma permanente o transitoria. No se requerirá la conformidad de los
+            usuarios, ni será necesario aviso previo alguno. Asimismo, no garantiza el acceso o uso permanente del
+            website, ya que éste podría interrumpirse por cuestiones técnicas ajenas a grid. No obstante lo mencionado
+            anteriormente, si la suspensión o interrupción mencionada no obedeciere a razones de fuerza mayor o caso
+            fortuito, grid se compromete a cumplir las prestaciones que estuvieran pendientes al momento de la
+            suspensión o interrupción. grid no garantiza que el website se encuentre libre de virus, gusanos o cualquier
+            otro elemento que pueda llegar a dañar o alterar el normal funcionamiento de un ordenador. Es
+            responsabilidad y obligación exclusiva del usuario contar con las herramientas adecuadas para detectar,
+            desinfectar y/o prevenir cualquier tipo de elementos y/o posibles daños de esta naturaleza. grid no se
+            responsabiliza por cualquier daño que pueda producirse en los equipos informáticos de los usuarios o de
+            terceros como consecuencia de la navegación del presente website.</p>
+
+        <h3>REGISTRACIÓN</h3>
+        <p>Para poder realizar compras el usuario interesado deberá registrarse en el sitio consignando la totalidad de
+            información personal que se requiera. El usuario se obliga a que la información que consignará en todo
+            momento, tanto al registrarse en el sitio como al efectuar una compra como en cualquier otra ocasión en que
+            deba consignarse información, será correcta y fehaciente, comprometiéndose a actualizar la misma en caso de
+            ser necesario y haciéndose enteramente responsable por los daños y perjuicios que pudiera causar la
+            inclusión de cualquier información incorrecta o imprecisa que consigne al registrarse, incluyendo cualquier
+            gasto en que pudiera incurrir el sitio como consecuencia de ello. Asimismo, el usuario reconoce y acepta que
+            las claves o contraseñas que consigne serán de uso personal y se obliga a no divulgar las mismas. En caso en
+            que el usuario detecte el uso no autorizado por un tercero de su contraseña o clave, se obliga a notificar
+            de inmediato al sitio de dicha circunstancia. El sitio ha sido diseñado para que cualquier usuario pueda
+            realizar en él compras de los productos que en el mismo se ofrecen sujeto al stock disponible al momento de
+            la compra. En www.grid.com.ar el usuario del sitio podrá consultar cómo realizar compras en él. El usuario
+            declara conocer y aceptar que al momento de confirmar la operación que efectúe está constituirá una
+            operación de compra-venta, aplicándose a las mismas todas las normas legales correspondientes a ella.</p>
+
+        <h3>PROMOCIONES VIGENTES:</h3>
+        <p>El sitio realiza promociones especiales que pueden habilitarse o finalizarse a decisión de grid. Las mismas
+            pueden no estar vigentes permanentemente y se encontrarán publicadas en www.grid.com.ar. Las distintas
+            promociones que pudieran estar vigentes, no son acumulativas. En el supuesto de existir excepciones, ello se
+            establecerá expresamente en el sitio.</p>
+
+        <h3>ENVÍO GRATIS</h3>
+        <p>La promoción de Envío Gratis superando el monto mínimo no es combinable con otras y NO INCLUYE productos con
+            descuento.</p>
+
+        <h3>FORMAS DE ENVÍOS</h3>
+        <p>Para asegurar la máxima eficacia en las entregas, éstas se realizan mediante empresas logísticas
+            especializadas. Las entregas se realizarán en la dirección que el usuario indique. La veracidad de la misma
+            es de su exclusiva responsabilidad. No se entregarán órdenes a casillas de correo o apartados postales. El
+            tiempo de entrega varía de acuerdo al código postal de la localidad indicada al momento de la compra y los
+            días que se indiquen son estimativos y corren siempre a partir del momento en que el pedido sea facturado.
+            Los envíos se realizan en toda la República Argentina, excepto a la provincia de Tierra del Fuego. Para
+            conocer los tiempos promedio de entrega, visite la sección de envíos. Al realizar una compra, el usuario
+            recibe en su casilla de correo electrónico una confirmación de que la orden de pedido ha sido aceptada junto
+            a un número de pedido el cual se repetirá en todos los mails transaccionales que sean enviados informando el
+            estado de la compra (Pedido RECIBIDO, Pago APROBADO, Pedido FACTURADO y Pedido ENVIADO.</p>
+
+        <p>La mercadería que es recibida en el domicilio de entrega, o retirada en sucursal grid o en una sucursal
+            ANDREANI, deberá hacerlo una persona mayor de edad, exhibiendo su DNI y con el número de pedido
+            correspondiente como condición para recibirla. NO está permitido el retiro de pedido por terceros, solamente
+            el titular de la compra podrá retirar su pedido. Al concretar la recepcion del pedido, el usuario está
+            obligado a revisar la mercadería al momento de recibirla en el domicilio que éste consigne. La firma del
+            remito correspondiente implicará la aceptación de la mercadería adquirida, sin perjuicio de los derechos que
+            al usuario le asisten conforme la ley.</p>
+
+        <h3>COSTOS DE LOS ENVÍOS</h3>
+        <p>Dependiendo del tipo de compra que realice el usuario y las condiciones vigentes, la operación podrá tener o
+            no costo de envío. El usuario será informado de los costos de entrega antes de realizar la compra. Estos
+            costos son calculados en función del peso total y/o el volumen total del envío y también dependen de la zona
+            y código postal del domicilio de entrega. Cualquier costo adicional que se genere como consecuencia de
+            errores en el ingreso de datos por parte del usuario así como también de problemas que se deban a su
+            exclusiva actuación, será adicionado a la factura y deberán ser cobrados a traves de los medios disponibles
+            para la venta online.</p>
+
+        <h3>DISPONIBILIDAD DE STOCK Y PRECIOS DE LOS PRODUCTOS</h3>
+        <p>El usuario declara conocer que en virtud del dinamismo del sitio y que en el mismo pueden estar efectuando
+            operaciones muchos usuarios a la vez, puede suceder que al momento de concretar la operación el producto ya
+            no se encuentre disponible. grid no garantiza la disponibilidad de el/los productos solicitados por el
+            usuario y/o en el/los talles y colores seleccionados al momento de la compra. En estos casos dependemos del
+            stock disponible al momento de realizar la compra. En el improbable caso de que el cliente comprase uno o
+            varios productos sin disponibilidad de stock por algún error en el sistema o el producto estuviera en falta
+            le informaremos POR MAIL de manera que usted pueda optar por:</p>
+
+        • OPCIÓN 1: Elegir otro modelo del sitio de igual valor.
+
+        • OPCIÓN 2: Elegir otro modelo del sitio de mayor valor (por el que deberás pagar la diferencia).
+
+        • OPCIÓN 3: Solicitar el reintegro del importe abonado por el producto en falta y enviar los demás productos.
+
+        • OPCION 4: Cancelación y reintegro total del monto de la compra.
+
+        <p>Cuando el usuario opte por cancelar la compra, se devolverá el importe abonado según el medio de pago que se
+            haya elegido oportunamente. En el caso de que el usuario opte por otro modelo del sitio que le ofrece grid,
+            éste deberá contener características iguales o superiores. En ningún caso se le pedirá al usuario que abone
+            sumas suplementarias o que se haga cargo de las diferencias, salvo que el producto alternativo ofrecido por
+            grid y escogido por el usuario sea de características ampliamente superiores y más costosas al solicitado
+            originalmente por el usuario. Importante: para las situaciones contempladas en este apartado, el usuario
+            tendrá un plazo de dos (2) días hábiles para elegir una de las opciones mencionadas. En caso de que el
+            usuario guarde silencio al respecto, grid podrá presumir que ha optado por la cancelación de la compra y
+            procederá a la devolución del importe abonado por el medio de pago original. La información sobre productos
+            y precios publicados en la página está sujeta a cambios y pueden ser modificados y/o actualizados
+            directamente por grid. En caso de notorias diferencias entre los precios reales de mercado y/o en vidriera
+            de los locales de grid y el sitio web, publicados a consecuencias de claros errores, grid anulará la venta.
+            Cualquier precio o condición de los productos que ya haya sido confirmado en una operación no serán
+            modificados.</p>
+
+        <h3>FOTOGRAFIAS DE LOS PRODUCTOS</h3>
+        <p>Las fotos de los productos publicados son meramente ilustrativas, pudiendo existir diferencias menores con el
+            producto. Ud. reconoce y acepta que los colores de los productos publicados pueden variar por cuestiones
+            gráficas y/o de nitidez del catálogo web. Una vez confirmada la compra, el usuario recibirá un correo
+            electrónico y al momento del despacho del producto desde la central de distribución de grid, se enviará otro
+            mail indicando su estado de “En tránsito”. De no recibir alguna de las dos comunicaciones anteriormente
+            mencionadas el usuario deberá comunicarse con el sitio a través del correo electrónico
+            ventasonline@grid.com.ar</p>
+
+        <h3>FORMAS DE PAGO</h3>
+        <p>Las formas de pago disponibles se encuentran detalladas en www.grid.com.ar, las cuales podrán variar a mera
+            discreción del sitio. Cualquier variación al respecto será expresamente indicada en el referido link.</p>
+
+        <p>Para los pedidos abonados mediante cupones de pago en PAGO FACIL o RAPIPAGO se reservará la mercaderia
+            durante 48 hs independientemente del vencimiento que tenga dicho cupón.</p>
+
+        <h3>POLÍTICAS DE CAMBIOS COVID-19</h3>
+        <p>El plazo de cambio es de treinta (30) días corridos contando a partir de la fecha en que finalice el periodo
+            de aislamiento social preventivo y obligatorio dictado por el gobierno.</p>
+
+        EL CAMBIO PUEDE REALIZARSE DE DOS FORMAS:
+        • A TRAVÉS DE SUCURSALES GRID/dash (Gratis) Puede dirigirse a cualquiera de nuestras sucursales y cambiar el
+        producto en el momento cumpliendo con los requisitos de cambio. O realizar la devolución del producto para que
+        podamos enviar uno nuevo desde el centro de distribución centralizado que se encuentra ajeno a las sucursales.
+        • A TRAVÉS DE CORREO ANDREANI (Pago) Para gestionar un cambio a través de correo debes ingresar al siguiente
+        Botón y completar el formulario.
+
+        <h3>PROPIEDAD INTELECTUAL</h3>
+        <p>El sitio web www.grid.com.ar, sus logotipos y todo el material que aparece en dicho sitio, son marcas,
+            nombres de dominio, avisos comerciales y nombres comerciales propiedad de sus respectivos titulares y están
+            protegidos por los tratados internacionales y las leyes aplicables en materia de propiedad industrial, Ley
+            11.723.</p>
+
+        <p>Los derechos de autor sobre el contenido, organización, recopilación, compilación, información, logotipos,
+            fotografías, imágenes, programas, aplicaciones, y en general cualquier información contenida o publicada en
+            el sitio web www.grid.com.ar se encuentran debidamente protegidos a favor de sus respectivos propietarios y
+            correctamente licenciados, de conformidad con la legislación aplicable en materia de propiedad intelectual e
+            industrial. Se prohíbe expresamente al usuario modificar, alterar o suprimir, ya sea en forma total o
+            parcial, los avisos, marcas, nombres comerciales, señas, anuncios, logotipos o en general cualquier
+            indicación que se refiera a la propiedad de la información contenida en el sitio. Es nuestra política actuar
+            contra las violaciones que en materia de propiedad intelectual se pudieran generar u originar según lo
+            estipulado en la legislación y en otras leyes de propiedad intelectual aplicables, incluyendo la eliminación
+            o el bloqueo del acceso a material que se encuentra sujeto a actividades que infrinjan el derecho de
+            propiedad intelectual de terceros.</p>
+
+        <p>En caso de que algún usuario o tercero consideren que cualquiera de los contenidos que se encuentren o sean
+            introducidos en el sitio www.grid.com.ar y/o cualquiera de sus servicios, violen sus derechos de propiedad
+            intelectual deberán enviar una notificación a la siguiente dirección de correo electrónico:
+            ventasonline@grid.com.ar en la que indiquen: i) datos personales verídicos (nombre, dirección, número de
+            teléfono y dirección de correo electrónico del reclamante); ii) firma autógrafa con los datos personales del
+            titular de los derechos de propiedad intelectual; iii) indicación precisa y completa del (los) contenido (s)
+            protegido (s) mediante los derechos de propiedad intelectual supuestamente infringidos, así como la
+            localización de dichas violaciones en el sitio web referido; iv) declaración expresa y clara de que la
+            introducción del (los) contenido (s) indicado (s) se ha realizado sin el consentimiento del titular de los
+            derechos de propiedad intelectual supuestamente infringidos; v) declaración expresa, clara y bajo la
+            responsabilidad del reclamante de que la información proporcionada en la notificación es exacta y de que la
+            introducción del (los) contenido (s) constituye una violación de dichos derechos.</p>
+
+        <h3>TÉRMINOS ADICIONALES</h3>
+
+        <p>Ocasionalmente, grid podrá revisar, actualizar y/o agregar a los Términos y Condiciones de Uso del presente
+            contrato provisiones adicionales relativas a áreas específicas o nuevos servicios que se proporcionen en o a
+            través del sitio web www.grid.com.ar , los cuales serán publicados en las áreas específicas o nuevos
+            servicios de dicho sitio para su lectura y aceptación. El usuario reconoce y acepta que dichos términos
+            adicionales forman parte integrante del presente contrato para todos los efectos legales a que haya lugar.
+            Prohibiciones al Usuario y sus responsabilidades.</p>
+
+        <p>Está terminantemente prohibido al usuario explotar de cualquier forma las informaciones adquiridas por medio
+            del Sitio. No podrá reproducir los textos o imágenes para otros fines que los exclusivos del objeto de
+            compra.</p>
+
+        <p>Será responsabilidad del usuario cualquier acto que se derive del uso del sitio y que implique un daño a grid
+            o a terceros y acepta mantener indemne a estos, respecto de y contra cualquier reclamo por parte de
+            terceros, derivado o relacionado con el uso inadecuado del sitio o por la violación de las presentes
+            Condiciones de Uso y sus respectivas modificaciones, o que surja de dicho uso y/o a causa de algún
+            comentario publicado por el usuario en el sitio.</p>
+
+        <p>En tal sentido, está prohibido a los usuarios violar, vulnerar y/o de cualquier forma afectar el normal uso y
+            la seguridad del sitio, incluyendo, pero sin limitarse a:</p>
+
+        <p>a) acceder a datos que no se destinan a ese usuario o ingresar a una computadora o a una cuenta a los cuales
+            no esté el usuario autorizado para acceder.
+
+        <p>b) tratar de sondear, analizar o probar la vulnerabilidad de un sistema o una red o romper medidas de
+            seguridad o autenticación sin la debida autorización.
+
+        <p>c) intentar interferir con el servicio a cualquier usuario, computadora o red, incluyendo, sin que la
+            siguiente enumeración implique limitación, cuando se lo haga a través de medios de envío de un virus al
+            Sitio, sobrecarga, inundación (“flooding”) envío masivo de mensajes no solicitados (“spamming”) envío de
+            códigos destructivos (“mailbombing”) o anulación de instrucciones del software (“crashing”). Las violaciones
+            de la seguridad del sistema o de la red pueden dar lugar a responsabilidad civil o penal. grid investigará
+            sucesos que puedan implicar esas violaciones y puede involucrar a cooperar con las autoridades encargadas de
+            hacer cumplir la ley para enjuiciar a los usuarios que participen en esas violaciones. Usted acepta no
+            utilizar ningún dispositivo, software o rutina para interferir o intentar interferir con el buen
+            funcionamiento de este Sitio o cualquier actividad que se lleve a cabo en este Sitio.
+
+        <h3>TERMINACIÓN</h3>
+        <p>Grid se reserva el derecho, a su exclusiva discreción, y sin necesidad de aviso o notificación al usuario
+            para:</p>
+
+        a) Terminar definitivamente el presente contrato.
+
+        b) Descontinuar o dejar de publicar definitivamente el sitio web grid.com.ar sin responsabilidad alguna para
+        grid, sus afiliados o proveedores.
+
+        <h3>SUBSISTENCIA</h3>
+        <p>Estos términos y condiciones de Uso, así como los términos adicionales, constituyen el acuerdo íntegro entre
+            las partes, y sustituye cualquier otro acuerdo o contrato celebrado con anterioridad. Cualquier cláusula o
+            provisión del presente contrato, así como de los términos adicionales, legalmente declarada inválida, será
+            eliminada o modificada a elección de grid, con la finalidad de corregir su vicio o defecto. Sin embargo, el
+            resto de las cláusulas o provisiones mantendrán su fuerza, obligatoriedad y validez. Ley aplicable,
+            jurisdicción y competencia.</p>
+
+        <p>Las partes entienden que el presente contrato ha sido celebrado en la Ciudad de Buenos Aires, sometiéndose en
+            consecuencia a la justicia ordinaria de dicha Ciudad para la resolución de cualquier conflicto vinculado a
+            la contratación que se desprende de las operaciones de compra-venta a realizar mediante el sitio. Ello salvo
+            que alguna ley especifica establezca la competencia de Tribunales específicos con asiento en otro lugar de
+            la República Argentina.</p>
+
+        <h3>DOMICILIOS Y NOTIFICACIONES</h3>
+        <p>Todas las notificaciones vinculadas con los presentes Términos y Condiciones se considerarán notificadas a
+            los usuarios con la mera publicación de las mismas en el sitio.</p>
+        <p>Las notificaciones que los usuarios pretendan cursar al sitio deberán ser remitidas a Calle 7 No 64 y del
+            Canal, Parque Industrial Pilar, Pcia. Buenos Aires, el cual será considerado su domicilio constituido. Ante
+            cualquier duda, puede comunicarse con el servicio de atención al cliente al mail ventasonline@grid.com.ar y
+            será respondido de Lunes a Viernes de 9 a 17 hs.</p>
+
+
+    </main>
+
+    <a href="https://api.whatsapp.com/send?phone=541125924322&text=Hola%21%20Quisiera%20contactarme%20con%20atención%20al%20cliente."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+
+    <footer class="page-footer">
+        <div class="footer">
+            <div class="contain">
+                <div class="col">
+                    <h2>INSTITUCIONAL</h2>
+                    <ul>
+                        <li>QUIENES SOMOS</li>
+                        <li>NUESTRAS SUCURSALES</li>
+                        <li>TÉRMINOS Y CONDICIONES</li>
+                        <a href="https://autogestion.produccion.gob.ar/consumidores" target="_blank">
+                            <li>DEFENSA DEL CONSUMIDOR</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>MARCAS</h2>
+                    <ul>
+                        <li>NIKE</li>
+                        <li>ADIDAS</li>
+                        <li>JORDAN</li>
+                        <li>UNDER ARMOUR</li>
+                        <li>PUMA</li>
+                    </ul>
+                </div>
+                <div class="col social">
+                    <h2>REDES SOCIALES</h2>
+                    <ul>
+                        <li><a href="https://www.instagram.com/life_.kickz/?hl=es-la"><img src="/imagenes/instagram.png"
+                                    width="32" style="width: 1.5rem;"></a></li>
+                        <li><a href="https://www.facebook.com/uly003/"><img src="/imagenes/facebook.png" width="32"
+                                    style="width: 1.5rem;"></a></li>
+                        <li><a href="https://www.youtube.com/@lifekickz9754"><img src="/imagenes/youtube.png" width="32"
+                                    style="width: 1.6rem;"></a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>CONTACTANOS</h2>
+                    <ul>
+                        <p class="text-support">HORARIOS DE ATENCIÓN </p>
+                        <p class="text-support">Lunes a Viernes de 9 a 18.00 hs.</p>
+                        <p class="text-support"> 0810-122-0290 </p>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
