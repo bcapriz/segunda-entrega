@@ -12,6 +12,10 @@ header {
   height: 6rem;
 }
 
+.nav-link{
+  color: #8a413a;
+}
+
 .nav-link:hover {
   color: #c1b391;
 
@@ -133,6 +137,74 @@ div.container-fluid {
   font-family: "Ruleway";
 }
 
+
+.row {
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.text-title-product{
+  font-family: 'Raleway';
+  font-size: 6vh;
+}
+.card {
+  background-color: #201313;
+  position: relative;
+  border-radius: 20px;
+  max-height: 55vh;
+  
+}
+.card .img-fluid:hover{
+  height: auto;
+  width: 26.5vh;
+}
+
+.card::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '';
+  background:#201313; 
+  background: -webkit-linear-gradient(to right, #201313,  #8a413a);  
+  background: linear-gradient(to right, #201313,  #8a413a); 
+  
+  width: 100%;
+  height: 100%;
+  filter: blur(30px);
+  z-index: -1;
+}
+
+.card-body {
+  background-color: #8a413a;
+  border-radius: 20px;
+  border-style: groove;
+  border-color: #c1b391;
+  margin-bottom: 1rem;
+}
+
+.card-title{
+  font-size: 3.6vh;
+  color: #ffffff;
+  font-family: 'Raleway' ;
+}
+
+.card-text{
+  font-size: 2vh;
+  font-family: 'Raleway';
+  color: #ffffff;
+}
+
+.btn-primary{
+  background-color:#5f3c3c;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color:#c1b391;
+  border: none;
+}
+
+/*
 .row {
   display: flex;
   justify-content: space-between;
@@ -146,8 +218,10 @@ div.container-fluid {
   justify-content: center;
   font-size: 25px;
   margin-bottom: 2rem;
-}
+} 
+*/
 
+/*
 .text-product {
   border: #201313 solid;
   border-radius: 3px;
@@ -278,7 +352,7 @@ div.container-fluid {
   text-align: left;
   font-style: italic;
 }
-
+*/
 
 h4 {
   color: white;
@@ -307,6 +381,7 @@ p {
   color: #000000;
   font-size: 0.9rem;
   font-family: "Raleway";
+  font-style: italic;
   font-weight: bold;
   margin-top: 1.5rem;
   margin-left: 1.5rem;
@@ -316,7 +391,7 @@ p {
 
 .breadcrumb-item:hover {
   color: #8a413a;
-  font-style: italic;
+  
   transition: 0.5s
 }
 
@@ -406,6 +481,7 @@ p {
   font-family: inherit;
   font-weight: bold;
 }
+
 /*********************************MEDIAS QUERYS****************************************/
 
 
@@ -426,27 +502,28 @@ p {
     margin: 0px;
   }
 
-  .text-promotions{
+  .text-promotions {
     font-size: 1vh;
   }
 }
 
 @media only screen and (max-width: 990px) {
-  
-  .btmNav{
+
+  .btmNav {
     display: none;
   }
-  .navbar-collapse{
-    background-color:#8a413a; 
-    border:#201313 solid 3px;
+
+  .navbar-collapse {
+    background-color: #8a413a;
+    border: #201313 solid 3px;
     z-index: 99999999999;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 0.9rem;
   }
-  
-  
+
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -462,22 +539,34 @@ p {
     font-size: 13px;
   }
 
-  .boxProduct{
+  .breadcrumb{
+    margin-left: 0px;
+  }
+
+  .breadcrumb-item{
+    font-size: x-small;
+  }
+
+  .text-title-product{
+    font-size: 3vh;
+  }
+  .boxProduct {
     height: auto;
   }
+
   .boxProduct .inboxP {
     display: flex;
     flex-direction: column;
   }
 }
 
-  @media only screen and (max-width: 550px) {
+/* @media only screen and (max-width: 550px) {
     .card{
       height: 25vh;
       width: 30vh;
     }
+  } */
 
-  }
 
 @media only screen and (max-width: 500px) {
   .footer .col {
@@ -520,5 +609,3 @@ p {
 .my-float {
   margin-top: 16px;
 }
-
-
