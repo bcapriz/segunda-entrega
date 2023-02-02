@@ -9,7 +9,7 @@ body {
 
 header {
   background-color: #201313;
-  height: 6vw;
+  height: 6rem;
 }
 
 .nav-link:hover {
@@ -19,7 +19,7 @@ header {
 
 
 div.container-fluid {
-  height: 5.3vw;
+  height: 5.3rem;
 }
 
 
@@ -40,35 +40,29 @@ div.container-fluid {
 
 }
 
-
-
 /*********************/
 .btmNav {
-  height: 5vh;
+  height: 3.3rem;
   color: beige;
   background-color: #8a413a;
 
 }
 
 .btn-group {
-  height: 5vh;
   margin-left: 20%;
   margin-right: 20%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-}
-
-.btn {
-  background-color: transparent;
-  border: none;
+  height: 5vh;
 }
 
 .btn-outline {
-  font-size: x-small;
+  font-size: small;
+  font-style: italic;
 }
 
+/*****************************************CARROUSEL******************************************************/
 .slide {
   margin-top: 5px;
   margin-left: 10%;
@@ -76,8 +70,30 @@ div.container-fluid {
   margin-bottom: 5px;
 }
 
-.slide img {
-  height: 75vh;
+
+/*****************************************BANNERS******************************************************/
+.section-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  gap: 10rem;
+}
+
+
+.bannersMarcas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  gap: 3rem;
+}
+
+.img-thumbnail {
+  height: auto;
+  width: 40rem;
 }
 
 /********************************************PROMOCIONES************************************************/
@@ -105,16 +121,16 @@ div.container-fluid {
   margin-bottom: 2%;
   margin-left: 1rem;
   height: 100%;
-  font-size: small;
+  font-size: 1rem;
 }
 
 /********************************************Productos*************************************************/
 .section-box {
-  margin: 2rem;
+  margin: 1.5rem;
   margin-top: 0;
   padding: 2rem;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Ruleway";
 }
 
 .row {
@@ -129,31 +145,39 @@ div.container-fluid {
   display: flex;
   justify-content: center;
   font-size: 25px;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.text-product {
+  border: #201313 solid;
+  border-radius: 3px;
+  border-style: double;
 }
 
 .boxProduct {
-  height: 400px;
-
+  height: 25rem;
 }
 
 .boxProduct .inboxP {
-  height: 450px;
+  height: 28rem;
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 4rem;
 }
 
 .card {
   position: relative;
-  width: 33rem;
-  height: 25rem;
+  width: 48vh;
+  height: 35vh;
   border-radius: 1.25rem;
   display: flex;
   align-items: center;
   transition: 0.5s;
   background-color: #201313;
+}
+
+.card .content {
+  margin-right: 12rem;
 }
 
 .card .circle {
@@ -252,7 +276,9 @@ div.container-fluid {
 .products {
   width: 90%;
   text-align: left;
+  font-style: italic;
 }
+
 
 h4 {
   color: white;
@@ -267,9 +293,34 @@ p {
   height: 27rem;
 }
 
+.img .catHome-nike {
+  width: 1rem;
+}
 
 
-/******************************************FOOTER**************************************/
+/**********************************PAGINAS PRODUCTOS***************************/
+.breadcrumb {
+  margin-left: 5rem;
+}
+
+.breadcrumb-item {
+  color: #000000;
+  font-size: 0.9rem;
+  font-family: "Raleway";
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  text-decoration: none;
+
+}
+
+.breadcrumb-item:hover {
+  color: #8a413a;
+  font-style: italic;
+  transition: 0.5s
+}
+
+/**************************************FOOTER**************************************/
 
 .page-footer {
   background-color: #201313;
@@ -280,7 +331,7 @@ p {
   width: 100%;
   position: relative;
   height: auto;
-  background-color:#201313;
+  background-color: #201313;
 }
 
 .footer .col {
@@ -323,8 +374,10 @@ p {
   -webkit-transition: .2s;
   -moz-transition: .2s;
 }
-.footer .col a{
+
+.footer .col a {
   text-decoration: none;
+  color: #999999;
 }
 
 .social ul li {
@@ -340,12 +393,21 @@ p {
   -moz-transition: .1s;
 }
 
+.footer .col ul li a:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+
 .text-support {
   color: #999999;
   font-size: 14px;
   font-family: inherit;
   font-weight: bold;
 }
+/*********************************MEDIAS QUERYS****************************************/
+
 
 @media only screen and (min-width: 1280px) {
   .contain {
@@ -354,7 +416,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 1139px) {
+@media only screen and (max-width: 1150px) {
   .contain .social {
     width: 1000px;
     display: block;
@@ -364,6 +426,27 @@ p {
     margin: 0px;
   }
 
+  .text-promotions{
+    font-size: 1vh;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  
+  .btmNav{
+    display: none;
+  }
+  .navbar-collapse{
+    background-color:#8a413a; 
+    border:#201313 solid 3px;
+    z-index: 99999999999;
+  }
+
+  .nav-link{
+    font-size: 0.9rem;
+  }
+  
+  
 }
 
 @media only screen and (max-width: 950px) {
@@ -378,7 +461,23 @@ p {
   .footer .col ul li {
     font-size: 13px;
   }
+
+  .boxProduct{
+    height: auto;
+  }
+  .boxProduct .inboxP {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+  @media only screen and (max-width: 550px) {
+    .card{
+      height: 25vh;
+      width: 30vh;
+    }
+
+  }
 
 @media only screen and (max-width: 500px) {
   .footer .col {
@@ -423,4 +522,3 @@ p {
 }
 
 
-@media (max-widht:768px) {}
