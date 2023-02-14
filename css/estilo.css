@@ -62,8 +62,9 @@ div.container-fluid {
 }
 
 .btn-outline {
-  font-size: small;
+  font-size: 1.4vh;
   font-style: italic;
+  color:#c1b391;
 }
 
 /*****************************************CARROUSEL******************************************************/
@@ -502,6 +503,15 @@ p {
 .my-float {
   margin-top: 16px;
 }
+
+
+/* PAGINA TERMINOS Y CONDICIONES */
+
+.tit-tac {
+  margin-top: 0.5vh;
+  margin-bottom: 0.3vh;
+}
+
 /*********************************MEDIAS QUERYS****************************************/
 
 
@@ -524,8 +534,14 @@ p {
 
   .text-promotions {
     font-size: 1vh;
+  } 
+
+  .navbar{
+    width: 100%;
   }
+ 
 }
+
 
 @media only screen and (max-width: 990px) {
 
