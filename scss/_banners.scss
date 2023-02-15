@@ -1,0 +1,21 @@
+/****************BANNERS********************/
+.section-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100%;
+	gap: 10rem;
+}
+.bannersMarcas {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100%;
+	gap: 3rem;
+}
+.img-thumbnail {
+	height: auto;
+	width: 40rem;
+}

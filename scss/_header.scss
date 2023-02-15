@@ -1,0 +1,33 @@
+/************HEADER****************/
+header {
+    background-color: $background-color_1;
+    height: 6rem;
+}
+
+.nav-link {
+    color: $color_1;
+
+    &:hover {
+        color: $color_2;
+    }
+}
+
+div.container-fluid {
+    height: 5.3rem;
+}
+
+.logo {
+    height: 6rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.d-flex {
+    height: 1.8rem;
+    width: 25%;
+}
+
+.btnSearch {
+    display: flex;
+    align-items: center;
+}

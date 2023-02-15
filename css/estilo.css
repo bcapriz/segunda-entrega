@@ -1,31 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
-
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+/**************BASE***************/
 body {
   background-color: #c1b391;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
+.tit-page {
+  display: flex;
+  justify-content: center;
+}
+
+/************HEADER****************/
 header {
   background-color: #201313;
   height: 6rem;
 }
 
-.nav-link{
+.nav-link {
   color: #8a413a;
 }
-
 .nav-link:hover {
   color: #c1b391;
-
 }
-
 
 div.container-fluid {
   height: 5.3rem;
 }
-
 
 .logo {
   height: 6rem;
@@ -41,15 +43,13 @@ div.container-fluid {
 .btnSearch {
   display: flex;
   align-items: center;
-
 }
 
-/*********************/
+/*******************SUBMENU NAV****************/
 .btmNav {
   height: 3.3rem;
   color: beige;
   background-color: #8a413a;
-
 }
 
 .btn-group {
@@ -62,12 +62,11 @@ div.container-fluid {
 }
 
 .btn-outline {
-  font-size: 1.4vh;
+  font-size: small;
   font-style: italic;
-  color:#c1b391;
 }
 
-/*****************************************CARROUSEL******************************************************/
+/**************CARROUSEL****************/
 .slide {
   margin-top: 5px;
   margin-left: 10%;
@@ -75,8 +74,34 @@ div.container-fluid {
   margin-bottom: 5px;
 }
 
+/**************PROMOS*****************/
+.sn-promotions {
+  height: 3rem;
+  color: beige;
+  background-color: #201313;
+}
 
-/*****************************************BANNERS******************************************************/
+.promotions {
+  height: 3rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-promotions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 1rem;
+  height: 100%;
+  font-size: 1rem;
+}
+
+/****************BANNERS********************/
 .section-box {
   display: flex;
   justify-content: space-between;
@@ -85,7 +110,6 @@ div.container-fluid {
   min-height: 100%;
   gap: 10rem;
 }
-
 
 .bannersMarcas {
   display: flex;
@@ -101,279 +125,7 @@ div.container-fluid {
   width: 40rem;
 }
 
-/********************************************PROMOCIONES************************************************/
-
-.sn-promotions {
-  height: 3rem;
-  color: beige;
-  background-color: #201313;
-}
-
-.promotions {
-  height: 3rem;
-  margin-left: 20%;
-  margin-right: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between
-}
-
-.text-promotions {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 1rem;
-  height: 100%;
-  font-size: 1rem;
-}
-
-/********************************************Productos*************************************************/
-.section-box {
-  margin: 1.5rem;
-  margin-top: 0;
-  padding: 2rem;
-  box-sizing: border-box;
-  font-family: "Ruleway";
-}
-
-
-.row {
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.text-title-product{
-  font-family: 'Raleway';
-  font-size: 6vh;
-}
-.card {
-  background-color: #201313;
-  position: relative;
-  border-radius: 20px;
-  max-height: 55vh;
-  
-}
-.card .img-fluid:hover{
-  height: auto;
-  width: 26.5vh;
-}
-
-.card::after {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  content: '';
-  background:#201313; 
-  background: -webkit-linear-gradient(to right, #201313,  #8a413a);  
-  background: linear-gradient(to right, #201313,  #8a413a); 
-  
-  width: 100%;
-  height: 100%;
-  filter: blur(30px);
-  z-index: -1;
-}
-
-.card-body {
-  background-color: #8a413a;
-  border-radius: 20px;
-  border-style: groove;
-  border-color: #c1b391;
-  margin-bottom: 1rem;
-}
-
-.card-title{
-  font-size: 3.6vh;
-  color: #ffffff;
-  font-family: 'Raleway' ;
-}
-
-.card-text{
-  font-size: 2vh;
-  font-family: 'Raleway';
-  color: #ffffff;
-}
-
-.btn-primary{
-  background-color:#5f3c3c;
-  border: none;
-}
-
-.btn-primary:hover{
-  background-color:#c1b391;
-  border: none;
-}
-
-/*
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-.col-text1 {
-  display: flex;
-  justify-content: center;
-  font-size: 25px;
-  margin-bottom: 2rem;
-} 
-*/
-
-/*
-.text-product {
-  border: #201313 solid;
-  border-radius: 3px;
-  border-style: double;
-}
-
-.boxProduct {
-  height: 25rem;
-}
-
-.boxProduct .inboxP {
-  height: 28rem;
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-}
-
-.card {
-  position: relative;
-  width: 48vh;
-  height: 35vh;
-  border-radius: 1.25rem;
-  display: flex;
-  align-items: center;
-  transition: 0.5s;
-  background-color: #201313;
-}
-
-.card .content {
-  margin-right: 12rem;
-}
-
-.card .circle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.card .circle::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #c18755;
-  opacity: 40%;
-  clip-path: circle(7.5rem at center);
-  transition: 0.5s;
-}
-
-.card:hover .circle::before {
-  background: #8a413a;
-  clip-path: circle(400px at center);
-}
-
-.card img {
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 18.75rem;
-  pointer-events: none;
-  transition: 0.5s;
-}
-
-.card:hover img {
-  left: 78%;
-  height: 18rem;
-}
-
-.card .content {
-  position: relative;
-  width: 50%;
-  left: 20%;
-  padding: 1rem 1rem 1rem 1.5rem;
-  transition: 0.5s;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.card:hover .content {
-  left: 0;
-  opacity: 1;
-  visibility: visible;
-}
-
-.card .content h2 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 2em;
-  line-height: 1em;
-  margin-bottom: 3px;
-}
-
-.card .content h3 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1em;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-}
-
-.card .content p {
-  color: #fff;
-}
-
-.card .content a {
-  position: relative;
-  color: #fff;
-  padding: 0.6rem 1.25rem;
-  border-radius: 10px;
-  background: #c18755;
-  color: #111;
-  margin-top: 10px;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 700;
-  transition: 0.5s;
-}
-
-.products {
-  width: 90%;
-  text-align: left;
-  font-style: italic;
-}
-*/
-
-h4 {
-  color: white;
-}
-
-p {
-
-  font-size: 1.3rem;
-}
-
-.img .catHome {
-  height: 27rem;
-}
-
-.img .catHome-nike {
-  width: 1rem;
-}
-
-
-/**********************************PAGINAS PRODUCTOS***************************/
+/*************BREADCUMB*************/
 .breadcrumb {
   margin-left: 5rem;
 }
@@ -387,17 +139,106 @@ p {
   margin-top: 1.5rem;
   margin-left: 1.5rem;
   text-decoration: none;
-
 }
-
 .breadcrumb-item:hover {
   color: #8a413a;
-  
-  transition: 0.5s
+  transition: 0.5s;
 }
 
-/**************************************FOOTER**************************************/
+/**************************PRODUCTOS*************************/
+.section-box {
+  margin: 1.5rem;
+  margin-top: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: "Ruleway";
+}
 
+.row {
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.text-title-product {
+  font-family: "Raleway";
+  font-size: 6vh;
+}
+
+.card {
+  background-color: #201313;
+  position: relative;
+  border-radius: 20px;
+  max-height: 55vh;
+}
+.card .img-fluid:hover {
+  height: auto;
+  width: 26.5vh;
+}
+.card::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: #201313;
+  background: -webkit-linear-gradient(to right, #201313, #8a413a);
+  background: linear-gradient(to right, #201313, #8a413a);
+  width: 100%;
+  height: 100%;
+  filter: blur(30px);
+  z-index: -1;
+}
+
+.card-body {
+  background-color: #8a413a;
+  border-radius: 20px;
+  border-style: groove;
+  border-color: #8a413a;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 3.6vh;
+  color: beige;
+  font-family: "Raleway";
+}
+
+.card-text {
+  font-size: 2vh;
+  font-family: "Raleway";
+  color: beige;
+}
+
+.btn-primary {
+  background-color: #5f3c3c;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #8a413a;
+  border: none;
+}
+
+h4 {
+  color: beige;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.img .catHome {
+  height: 27rem;
+}
+.img .catHome-nike {
+  width: 1rem;
+}
+
+.underlined {
+  width: 10%;
+  border: 2px solid #8a413a;
+  margin: 0 auto 1rem;
+}
+
+/***************FOOTER***************/
 .page-footer {
   background-color: #201313;
   margin-top: 3.5rem;
@@ -409,7 +250,6 @@ p {
   height: auto;
   background-color: #201313;
 }
-
 .footer .col {
   width: 15.1rem;
   height: auto;
@@ -419,7 +259,6 @@ p {
   -moz-box-sizing: border-box;
   padding: 0px 20px 20px 20px;
 }
-
 .footer .col h2 {
   margin: 0;
   padding: 0;
@@ -430,15 +269,13 @@ p {
   color: rgba(255, 255, 255, 0.2);
   font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: 0.250em;
+  letter-spacing: 0.25em;
 }
-
 .footer .col ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 .footer .col ul li {
   color: #999999;
   font-size: 12px;
@@ -446,11 +283,22 @@ p {
   font-weight: bold;
   padding: 5px 0px 5px 0px;
   cursor: pointer;
-  transition: .2s;
-  -webkit-transition: .2s;
-  -moz-transition: .2s;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
 }
-
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.footer .col ul li a:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
 .footer .col a {
   text-decoration: none;
   color: #999999;
@@ -462,29 +310,14 @@ p {
   height: 1rem;
 }
 
-.footer .col ul li:hover {
-  color: #ffffff;
-  transition: .1s;
-  -webkit-transition: .1s;
-  -moz-transition: .1s;
-}
-
-.footer .col ul li a:hover {
-  color: #ffffff;
-  transition: .1s;
-  -webkit-transition: .1s;
-  -moz-transition: .1s;
-}
-
 .text-support {
   color: #999999;
   font-size: 14px;
   font-family: inherit;
   font-weight: bold;
 }
-/******************************BOTON WHATSAPP*********************************/
 
-
+/***********BOTON WHATSAPP************/
 .float {
   position: fixed;
   width: 60px;
@@ -504,124 +337,87 @@ p {
   margin-top: 16px;
 }
 
-
-/* PAGINA TERMINOS Y CONDICIONES */
-
-.tit-tac {
-  margin-top: 0.5vh;
-  margin-bottom: 0.3vh;
-}
-
-/*********************************MEDIAS QUERYS****************************************/
-
-
-@media only screen and (min-width: 1280px) {
-  .contain {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .contain .social {
-    width: 1000px;
-    display: block;
-  }
-
-  .social h1 {
-    margin: 0px;
-  }
-
-  .text-promotions {
-    font-size: 1vh;
-  } 
-
-  .navbar{
-    width: 100%;
-  }
- 
-}
-
-
-@media only screen and (max-width: 990px) {
-
-  .btmNav {
-    display: none;
-  }
-
-  .navbar-collapse {
-    background-color: #8a413a;
-    border: #201313 solid 3px;
-    z-index: 99999999999;
-  }
-
-  .nav-link {
-    font-size: 0.9rem;
-    color: #c1b391;
-  }
-
-
-}
-
-@media only screen and (max-width: 950px) {
-  .footer .col {
-    width: 33%;
-  }
-
-  .footer .col h1 {
-    font-size: 14px;
-  }
-
-  .footer .col ul li {
-    font-size: 13px;
-  }
-
-  .breadcrumb{
-    margin-left: 0px;
-  }
-
-  .breadcrumb-item{
-    font-size: x-small;
-  }
-
-  .text-title-product{
-    font-size: 3vh;
-  }
-  .boxProduct {
-    height: auto;
-  }
-
-  .boxProduct .inboxP {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
+/*****************MEDIA QUERIES******************/
 /* @media only screen and (max-width: 550px) {
     .card{
       height: 25vh;
       width: 30vh;
     }
   } */
-
-
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+  .text-promotions {
+    font-size: 1vh;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .btmNav {
+    display: none;
+  }
+  .navbar-collapse {
+    background-color: #c1b391;
+    border: #201313 solid 3px;
+    z-index: 99999999999;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+    color: #c1b391;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+  .breadcrumb {
+    margin-left: 0px;
+  }
+  .breadcrumb-item {
+    font-size: x-small;
+  }
+  .text-title-product {
+    font-size: 3vh;
+  }
+  .boxProduct {
+    height: auto;
+  }
+  .boxProduct .inboxP {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 500px) {
   .footer .col {
     width: 50%;
   }
-
   .footer .col h1 {
     font-size: 14px;
   }
-
   .footer .col ul li {
     font-size: 13px;
   }
 }
-
 @media only screen and (max-width: 340px) {
   .footer .col {
     width: 100%;
   }
 }
 
+/*# sourceMappingURL=estilo.css.map */
