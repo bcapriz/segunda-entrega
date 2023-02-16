@@ -1,3 +1,4 @@
+
 /***************FOOTER***************/
 .page-footer {
 	background-color: $background-color_1;
@@ -33,15 +34,7 @@
 			margin: 0;
 			padding: 0;
 			li {
-				color: $color_5;
-				font-size: 12px;
-				font-family: $font-family_1;
-				font-weight: bold;
-				padding: 5px 0px 5px 0px;
-				cursor: pointer;
-				transition: .2s;
-				-webkit-transition: .2s;
-				-moz-transition: .2s;
+				@include text-complementary;
 				&:hover {
 					color: $color_6;
 					transition: .1s;

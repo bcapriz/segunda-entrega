@@ -33,8 +33,13 @@
 	}
 	.nav-link {
 		font-size: 0.9rem;
-		color: $color_2;
+		color: $color_1;
+
+		&:hover{
+			color: $color_7;
+		}
 	}
+
 }
 @media only screen and (max-width: 950px) {
 	.footer {
@@ -64,6 +69,14 @@
 		.inboxP {
 			display: flex;
 			flex-direction: column;
+		}
+	}
+	.float{
+		width: 2.8rem;
+		height: 2.8rem;
+		bottom: 1.5rem;
+		.my-float{
+			margin-top: 0rem;
 		}
 	}
 }

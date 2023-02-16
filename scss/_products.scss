@@ -8,6 +8,7 @@
 	box-sizing: border-box;
 	font-family: $font-family_3;
 }
+
 .row {
 	justify-content: space-between;
 	gap: 2rem;
@@ -21,12 +22,12 @@
 	position: relative;
 	border-radius: 20px;
 	max-height: 55vh;
-	.img-fluid {
-		&:hover {
-			height: auto;
-			width: 26.5vh;
-		}
+	transition: transform 0.5s linear;
+
+	&:hover{
+		transform: translate(1rem);
 	}
+	
 	&::after {
 		position: absolute;
 		top: 0px;
@@ -62,10 +63,11 @@
 	background-color: $background-color_2;
 	border: none;
 	&:hover {
-		background-color: $color_1;
+		background-color: $color_2;
 		border: none;
 	}
 }
+
 h4 {
 	color: $color_3;
 }
