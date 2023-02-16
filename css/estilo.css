@@ -338,12 +338,6 @@ p {
 }
 
 /*****************MEDIA QUERIES******************/
-/* @media only screen and (max-width: 550px) {
-    .card{
-      height: 25vh;
-      width: 30vh;
-    }
-  } */
 @media only screen and (min-width: 1280px) {
   .contain {
     width: 1200px;
