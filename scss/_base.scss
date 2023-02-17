@@ -6,8 +6,15 @@ body {
     font-size: 20px;
     font-family: 'Raleway';
   }
-  
+
 .tit-page{
   display: flex;
   justify-content: center;
+}
+
+.nav-link {
+  color: $color_1;
+  &:hover {
+      color: $color_2;
+  }
 }

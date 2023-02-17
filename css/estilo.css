@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:200");
 /**************BASE***************/
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
 body {
   background-color: #c1b391;
   font-family: Arial, Helvetica, sans-serif;
@@ -12,17 +12,17 @@ body {
   justify-content: center;
 }
 
-/************HEADER****************/
-header {
-  background-color: #201313;
-  height: 6rem;
-}
-
 .nav-link {
   color: #8a413a;
 }
 .nav-link:hover {
   color: #c1b391;
+}
+
+/************HEADER****************/
+header {
+  background-color: #201313;
+  height: 6rem;
 }
 
 div.container-fluid {
@@ -187,32 +187,29 @@ div.container-fluid {
   filter: blur(30px);
   z-index: -1;
 }
-
-.card-body {
+.card .card-body {
   background-color: #8a413a;
   border-radius: 20px;
   border-style: groove;
   border-color: #8a413a;
   margin-bottom: 1rem;
+  height: auto;
 }
-
-.card-title {
+.card .card-title {
   font-size: 3.6vh;
   color: beige;
   font-family: "Raleway";
 }
-
-.card-text {
+.card .card-text {
   font-size: 2vh;
   font-family: "Raleway";
   color: beige;
 }
-
-.btn-primary {
+.card .btn-primary {
   background-color: #5f3c3c;
   border: none;
 }
-.btn-primary:hover {
+.card .btn-primary:hover {
   background-color: #c1b391;
   border: none;
 }
@@ -263,7 +260,7 @@ p {
   margin: 0;
   padding: 0;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 17px;
   padding: 20px 0px 5px 0px;
   color: rgba(255, 255, 255, 0.2);
