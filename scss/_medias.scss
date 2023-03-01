@@ -6,6 +6,7 @@
 		margin: 0 auto;
 	}
 }
+
 @media only screen and (max-width: 1150px) {
 	.contain {
 		.social {
@@ -13,41 +14,50 @@
 			display: block;
 		}
 	}
+
 	.social {
 		h1 {
 			margin: 0px;
 		}
 	}
+
 	.text-promotions {
 		font-size: 1vh;
 	}
 }
+
 @media only screen and (max-width: 990px) {
-	.btmNav {
-		display: none;
-	}
+
 	.navbar-collapse {
 		background-color: $color_2;
 		border: #201313 solid 3px;
 		z-index: 99999999999;
-	}
-	.nav-link {
-		font-size: 0.9rem;
-		color: $color_1;
 
-		&:hover{
-			color: $color_7;
+		.nav-link {
+			font-size: 0.9rem;
+			color: $color_1;
+
+			&:hover {
+				color: $color_7;
+			}
 		}
+
 	}
 
+	.btmNav {
+		display: none;
+	}
 }
+
 @media only screen and (max-width: 950px) {
 	.footer {
 		.col {
 			width: 33%;
+
 			h1 {
 				font-size: 14px;
 			}
+
 			ul {
 				li {
 					font-size: 13px;
@@ -55,40 +65,51 @@
 			}
 		}
 	}
+
 	.breadcrumb {
 		margin-left: 0px;
+
+		.breadcrumb-item {
+			font-size: x-small;
+		}
 	}
-	.breadcrumb-item {
-		font-size: x-small;
-	}
+
+
 	.text-title-product {
 		font-size: 3vh;
 	}
+
 	.boxProduct {
 		height: auto;
+
 		.inboxP {
 			display: flex;
 			flex-direction: column;
 		}
 	}
-	.float{
+
+	.float {
 		width: 2.8rem;
 		height: 2.8rem;
 		bottom: 1.5rem;
-		.my-float{
+
+		.my-float {
 			margin-top: 0rem;
 		}
 	}
 }
+
 @media only screen and (max-width: 500px) {
 
-	
+
 	.footer {
 		.col {
 			width: 50%;
+
 			h1 {
 				font-size: 14px;
 			}
+
 			ul {
 				li {
 					font-size: 13px;
@@ -97,6 +118,7 @@
 		}
 	}
 }
+
 @media only screen and (max-width: 340px) {
 	.footer {
 		.col {

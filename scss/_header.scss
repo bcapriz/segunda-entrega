@@ -2,25 +2,32 @@
 header {
     background-color: $background-color_1;
     height: 6rem;
-}
 
+    div.container-fluid {
+        height: 5.3rem;
 
-div.container-fluid {
-    height: 5.3rem;
-}
+        .navbar-toggler {
+            background-image: none;
+            background-color: $color_1;
 
-.logo {
-    height: 6rem;
-    padding-bottom: 0.5rem;
-    margin-left: 1rem;
-}
+        }
 
-.d-flex {
-    height: 1.8rem;
-    width: 25%;
-}
+        .logo {
+            height: 6rem;
+            padding-bottom: 0.5rem;
+            margin-left: 1rem;
+        }
 
-.btnSearch {
-    display: flex;
-    align-items: center;
+        .d-flex {
+            height: 1.8rem;
+            width: 25%;
+
+            .btnSearch {
+                display: flex;
+                align-items: center;
+            }
+
+        }
+    }
+
 }

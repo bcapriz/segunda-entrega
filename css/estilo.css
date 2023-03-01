@@ -24,23 +24,23 @@ header {
   background-color: #201313;
   height: 6rem;
 }
-
-div.container-fluid {
+header div.container-fluid {
   height: 5.3rem;
 }
-
-.logo {
+header div.container-fluid .navbar-toggler {
+  background-image: none;
+  background-color: #8a413a;
+}
+header div.container-fluid .logo {
   height: 6rem;
   padding-bottom: 0.5rem;
   margin-left: 1rem;
 }
-
-.d-flex {
+header div.container-fluid .d-flex {
   height: 1.8rem;
   width: 25%;
 }
-
-.btnSearch {
+header div.container-fluid .d-flex .btnSearch {
   display: flex;
   align-items: center;
 }
@@ -51,8 +51,7 @@ div.container-fluid {
   color: beige;
   background-color: #8a413a;
 }
-
-.btn-group {
+.btmNav .btn-group {
   margin-left: 20%;
   margin-right: 20%;
   display: flex;
@@ -60,8 +59,7 @@ div.container-fluid {
   justify-content: space-around;
   height: 5vh;
 }
-
-.btn-outline {
+.btmNav .btn-group .btn-outline {
   font-size: small;
   font-style: italic;
 }
@@ -80,8 +78,7 @@ div.container-fluid {
   color: beige;
   background-color: #201313;
 }
-
-.promotions {
+.sn-promotions .promotions {
   height: 3rem;
   margin-left: 20%;
   margin-right: 20%;
@@ -89,8 +86,7 @@ div.container-fluid {
   align-items: center;
   justify-content: space-between;
 }
-
-.text-promotions {
+.sn-promotions .promotions .text-promotions {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,8 +106,7 @@ div.container-fluid {
   min-height: 100%;
   gap: 10rem;
 }
-
-.bannersMarcas {
+.section-box .bannersMarcas {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,8 +114,7 @@ div.container-fluid {
   min-height: 100%;
   gap: 3rem;
 }
-
-.img-thumbnail {
+.section-box .bannersMarcas .img-thumbnail {
   height: auto;
   width: 40rem;
 }
@@ -129,8 +123,7 @@ div.container-fluid {
 .breadcrumb {
   margin-left: 5rem;
 }
-
-.breadcrumb-item {
+.breadcrumb .breadcrumb-item {
   color: #000000;
   font-size: 0.9rem;
   font-family: "Raleway";
@@ -140,7 +133,7 @@ div.container-fluid {
   margin-left: 1.5rem;
   text-decoration: none;
 }
-.breadcrumb-item:hover {
+.breadcrumb .breadcrumb-item:hover {
   color: #8a413a;
   transition: 0.5s;
 }
@@ -240,14 +233,13 @@ p {
   background-color: #201313;
   margin-top: 3.5rem;
 }
-
-.footer {
+.page-footer .footer {
   width: 100%;
   position: relative;
   height: auto;
   background-color: #201313;
 }
-.footer .col {
+.page-footer .footer .col {
   width: 15.1rem;
   height: auto;
   float: left;
@@ -256,7 +248,7 @@ p {
   -moz-box-sizing: border-box;
   padding: 0px 20px 20px 20px;
 }
-.footer .col h2 {
+.page-footer .footer .col h2 {
   margin: 0;
   padding: 0;
   font-family: inherit;
@@ -268,12 +260,12 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.25em;
 }
-.footer .col ul {
+.page-footer .footer .col ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.footer .col ul li {
+.page-footer .footer .col ul li {
   color: #999999;
   font-size: 12px;
   font-family: inherit;
@@ -284,30 +276,28 @@ p {
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
 }
-.footer .col ul li:hover {
+.page-footer .footer .col ul li:hover {
   color: #ffffff;
   transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
 }
-.footer .col ul li a:hover {
+.page-footer .footer .col ul li a:hover {
   color: #ffffff;
   transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
 }
-.footer .col a {
+.page-footer .footer .col a {
   text-decoration: none;
   color: #999999;
 }
-
-.social ul li {
+.page-footer .footer .social ul li {
   display: inline-block;
   padding-right: 5px !important;
   height: 1rem;
 }
-
-.text-support {
+.page-footer .footer .text-support {
   color: #999999;
   font-size: 14px;
   font-family: inherit;
@@ -329,8 +319,7 @@ p {
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
-
-.my-float {
+.float .my-float {
   margin-top: 1rem;
 }
 
@@ -354,20 +343,20 @@ p {
   }
 }
 @media only screen and (max-width: 990px) {
-  .btmNav {
-    display: none;
-  }
   .navbar-collapse {
     background-color: #c1b391;
     border: #201313 solid 3px;
     z-index: 99999999999;
   }
-  .nav-link {
+  .navbar-collapse .nav-link {
     font-size: 0.9rem;
     color: #8a413a;
   }
-  .nav-link:hover {
+  .navbar-collapse .nav-link:hover {
     color: #000000;
+  }
+  .btmNav {
+    display: none;
   }
 }
 @media only screen and (max-width: 950px) {
@@ -383,7 +372,7 @@ p {
   .breadcrumb {
     margin-left: 0px;
   }
-  .breadcrumb-item {
+  .breadcrumb .breadcrumb-item {
     font-size: x-small;
   }
   .text-title-product {
