@@ -60,8 +60,9 @@ header div.container-fluid .d-flex .btnSearch {
   height: 5vh;
 }
 .btmNav .btn-group .btn-outline {
-  font-size: small;
+  font-size: 1.6vh;
   font-style: italic;
+  font-weight: bolder;
 }
 
 /**************CARROUSEL****************/
@@ -79,7 +80,7 @@ header div.container-fluid .d-flex .btnSearch {
   background-color: #201313;
 }
 .sn-promotions .promotions {
-  height: 3rem;
+  height: 2.8rem;
   margin-left: 20%;
   margin-right: 20%;
   display: flex;
@@ -90,11 +91,10 @@ header div.container-fluid .d-flex .btnSearch {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin: 2%;
   margin-left: 1rem;
   height: 100%;
-  font-size: 1rem;
+  font-size: 1.6vh;
 }
 
 /****************BANNERS********************/
@@ -146,28 +146,25 @@ header div.container-fluid .d-flex .btnSearch {
   box-sizing: border-box;
   font-family: "Ruleway";
 }
-
-.row {
+.section-box .row {
   justify-content: space-between;
   gap: 2rem;
 }
-
-.text-title-product {
+.section-box .row .text-title-product {
   font-family: "Raleway";
   font-size: 6vh;
 }
-
-.card {
+.section-box .row .card {
   background-color: #201313;
   position: relative;
   border-radius: 20px;
   max-height: 55vh;
   transition: transform 0.5s linear;
 }
-.card:hover {
+.section-box .row .card:hover {
   transform: translate(1rem);
 }
-.card::after {
+.section-box .row .card::after {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -180,7 +177,7 @@ header div.container-fluid .d-flex .btnSearch {
   filter: blur(30px);
   z-index: -1;
 }
-.card .card-body {
+.section-box .row .card .card-body {
   background-color: #8a413a;
   border-radius: 20px;
   border-style: groove;
@@ -188,26 +185,26 @@ header div.container-fluid .d-flex .btnSearch {
   margin-bottom: 1rem;
   height: auto;
 }
-.card .card-title {
+.section-box .row .card .card-body .card-title {
   font-size: 3.6vh;
   color: beige;
   font-family: "Raleway";
 }
-.card .card-text {
+.section-box .row .card .card-body .card-text {
   font-size: 2vh;
   font-family: "Raleway";
   color: beige;
 }
-.card .btn-primary {
+.section-box .row .card .card-body .btn-primary {
   background-color: #5f3c3c;
   border: none;
 }
-.card .btn-primary:hover {
+.section-box .row .card .card-body .btn-primary:hover {
   background-color: #c1b391;
   border: none;
 }
 
-h4 {
+h3 {
   color: beige;
 }
 
@@ -331,15 +328,24 @@ p {
   }
 }
 @media only screen and (max-width: 1150px) {
+  .sn-promotions {
+    height: 3.5rem;
+  }
+  .sn-promotions .promotions {
+    height: 3.6rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sn-promotions .promotions .text-promotions {
+    font-size: 1.7vh;
+    margin: none;
+  }
   .contain .social {
     width: 1000px;
     display: block;
   }
   .social h1 {
     margin: 0px;
-  }
-  .text-promotions {
-    font-size: 1vh;
   }
 }
 @media only screen and (max-width: 990px) {

@@ -8,6 +8,20 @@
 }
 
 @media only screen and (max-width: 1150px) {
+	.sn-promotions {
+		height: 3.5rem;
+
+		.promotions {
+			height: 3.6rem;
+			margin-left: 0;
+			margin-right: 0;
+			.text-promotions {
+				font-size: 1.7vh;
+				margin: none;
+			}
+		}
+	}
+
 	.contain {
 		.social {
 			width: 1000px;
@@ -19,10 +33,6 @@
 		h1 {
 			margin: 0px;
 		}
-	}
-
-	.text-promotions {
-		font-size: 1vh;
 	}
 }
 
