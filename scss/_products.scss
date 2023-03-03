@@ -61,6 +61,10 @@
 					color: $color_3;
 				}
 
+				p {
+					font-size: 1.3rem;
+				}
+
 				.btn-primary {
 					background-color: $background-color_2;
 					border: none;
@@ -75,13 +79,8 @@
 	}
 }
 
-h3 {
-	color: $color_3;
-}
 
-p {
-	font-size: 1.3rem;
-}
+
 
 .img {
 	.catHome {
