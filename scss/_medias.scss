@@ -15,8 +15,9 @@
 			height: 3.6rem;
 			margin-left: 0;
 			margin-right: 0;
+
 			.text-promotions {
-				font-size: 1.7vh;
+				font-size: 1.8vh;
 				margin: none;
 			}
 		}
@@ -38,19 +39,29 @@
 
 @media only screen and (max-width: 990px) {
 
+	.header {
+		div.container-fluid {
+			.logo {
+				margin-left: 0 !important;
+			}
+		}
+	}
+
+
 	.navbar-collapse {
-		background-color: $color_2;
-		border: #201313 solid 3px;
+		background-color: $background-color_1;
+		border: #201313 solid 2px;
 		z-index: 99999999999;
 
 		.nav-link {
 			font-size: 0.9rem;
-			color: $color_1;
+			color: $color_3;
 
 			&:hover {
-				color: $color_7;
+				color: $color_3;
 			}
 		}
+
 
 	}
 

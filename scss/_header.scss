@@ -6,17 +6,18 @@ header {
     div.container-fluid {
         height: 5.3rem;
 
+        .logo {
+            height: 6rem;
+            padding-bottom: 0.5rem;
+            margin-left: 1rem;
+        }
+
         .navbar-toggler {
             background-image: none;
             background-color: $color_1;
 
         }
 
-        .logo {
-            height: 6rem;
-            padding-bottom: 0.5rem;
-            margin-left: 1rem;
-        }
 
         .d-flex {
             height: 1.8rem;
@@ -27,6 +28,14 @@ header {
                 align-items: center;
             }
 
+        }
+
+        .dropdown-menu {
+            background-color: $background-color_1;
+
+            .dropdown-item {
+                color: $color_3;
+            }
         }
     }
 
